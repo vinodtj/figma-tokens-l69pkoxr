@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "doc-layout/src/template.js",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "docLayoutTemplate",
+          "parameters": [
+            {
+              "name": "content"
+            },
+            {
+              "name": "context"
+            }
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "docLayoutTemplate",
+          "declaration": {
+            "name": "docLayoutTemplate",
+            "module": "doc-layout/src/template.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "mdjs.config.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "module": "mdjs.config.js"
+          }
+        }
+      ]
+    }
+  ]
+}
